@@ -9,6 +9,6 @@ This repository contains:
 
 Doug added this section
 -----------------------
-    Love you!
-    Lots and lots!!!
 
+To fix newline problems in files exported by Excel, use
+    perl -pi -e 's/\r/\n/g' filename.txt
